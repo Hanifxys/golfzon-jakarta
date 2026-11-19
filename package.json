@@ -1,0 +1,30 @@
+{
+  "name": "golfzon-jakarta-monolith",
+  "version": "1.0.0",
+  "description": "Sistem Informasi Penyewaan dan Penjualan Simulator Golf PT Golfzon Jakarta",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "golfzon",
+    "simulator-golf",
+    "express",
+    "react",
+    "fifo",
+    "qris",
+    "pos"
+  ],
+  "author": "PT Golfzon Jakarta Dev Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4",
+    "node-cron": "^3.0.3"
+  }
+}
