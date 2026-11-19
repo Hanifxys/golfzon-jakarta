@@ -47,6 +47,4 @@ npm start
 
 Buka peramban di: `http://localhost:5000`
 
-## Konfigurasi Deployment
-- **Railway.app**: Tambahkan service repo ini dan service MySQL, hubungkan environment variable `DATABASE_URL`.
-- **Render.com / Vercel**: Dukungan build otomatis dan static serving.
+
